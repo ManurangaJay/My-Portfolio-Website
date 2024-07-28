@@ -5,7 +5,7 @@ import logo from '../../assets/logo.png'
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <img src={logo} alt=''></img>
+        <img src={logo} alt='' className='img'></img>
         <ul className='navMenu'>
             <li>Home</li>
             <li>About me</li>
