@@ -10,6 +10,13 @@
 .about-title{
     position: relative;
 }
+.me{
+    font-size: 60px;
+    background: linear-gradient(267deg, #c1ff80  0.36%, #01b607  102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .about-title h1{
     padding: 0px 30px;
