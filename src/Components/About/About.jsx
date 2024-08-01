@@ -9,6 +9,7 @@ const About = () => {
         <h1>
           About <span className="me">Me</span>
         </h1>
+        <hr className="about-me-hr" />
         {/* <img src={mypic} alt="" style={{ width: "300px" }} /> */}
       </div>
       <div className="about-section">

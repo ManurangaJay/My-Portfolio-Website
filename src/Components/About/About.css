@@ -18,6 +18,14 @@
     -webkit-text-fill-color: transparent;
 }
 
+.about-me-hr{
+    height: 2px;
+    background-color: #00250c;
+    /* background: linear-gradient(267deg, #c1ff80  0.36%, #002001  102.06%); */
+    outline: none;
+    border: none;
+}
+
 .about-title h1{
     padding: 0px 30px;
     font-size: 50px;
