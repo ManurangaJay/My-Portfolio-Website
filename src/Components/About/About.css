@@ -10,7 +10,7 @@
 .about-title{
     position: relative;
 }
-.me{
+.about-word{
     font-size: 60px;
     background: linear-gradient(267deg, #c1ff80  0.36%, #01b607  102.06%);
     background-clip: text;
