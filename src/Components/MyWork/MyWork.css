@@ -1,0 +1,66 @@
+.mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 100px;
+}
+
+.mywork-title{
+    position: relative;
+}
+
+.mywork-title h1{
+    padding: 0px 30px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.my-work-hr{
+    height: 2px;
+    background-color: #00250c;
+    /* background: linear-gradient(267deg, #c1ff80  0.36%, #002001  102.06%); */
+    outline: none;
+    border: none;
+}
+.latest-work-words{
+    font-size: 60px;
+    background: linear-gradient(267deg, #c1ff80  0.36%, #01b607  102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mywork-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.mywork-container img{
+    box-sizing: border-box;
+    width: 419px;
+    height: 280px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.mywork-container img:hover{
+    transform: scale(1.10);
+    border: 4px solid rgb(29, 194, 51);
+    border-radius: 10px;
+}
+
+.mywork-showmore{
+    display: flex;
+    gap: 15px;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 30px 60px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.mywork-showmore:hover{
+    gap: 50px;
+}
