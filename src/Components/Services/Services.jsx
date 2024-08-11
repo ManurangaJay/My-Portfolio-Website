@@ -5,9 +5,11 @@ import arrowIcon from "../../assets/arrow_icon.svg";
 
 const Services = () => {
   return (
-    <div className="services">
+    <div id="services" className="services">
       <div className="services-title">
-        <h1>My <span className="services-word">Services</span></h1>
+        <h1>
+          My <span className="services-word">Services</span>
+        </h1>
         <hr className="my-services-hr" />
         {/* <img src="" alt="" /> */}
       </div>

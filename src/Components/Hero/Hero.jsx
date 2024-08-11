@@ -1,6 +1,8 @@
 import React from "react";
 import "./Hero.css";
 import profPic from "../../assets/profile_pic.png";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
 // import profPic from "../../assets/Profile-Photo.png";
 
 const Hero = () => {
@@ -15,7 +17,11 @@ const Hero = () => {
         Jaffna
       </p>
       <div className="hero-actions">
-        <div className="hero-connect">Connect with me </div>
+        <div className="hero-connect">
+          <AnchorLink className="anchor-link" href="#contact">
+            Connect with me{" "}
+          </AnchorLink>
+        </div>
         <div className="hero-resume">My resume</div>
       </div>
     </div>

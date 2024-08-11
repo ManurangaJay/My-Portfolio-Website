@@ -12,6 +12,16 @@
     gap: 60px;
     font-size: 20px;
 }
+.navMenu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.navMenu li img{
+    display: flex;
+    margin: auto;
+}
 
 .navConnect{
     padding: 15px 30px;
@@ -32,4 +42,9 @@
 }
 .img:hover{
     transform: scale(1.5);
+}
+
+.anchor-link{
+    text-decoration: none;
+    color: white;
 }
