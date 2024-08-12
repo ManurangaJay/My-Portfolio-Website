@@ -59,3 +59,35 @@
 .hero-resume:hover{
     border-color: #01b607;
 }
+
+@media(max-width:768px) {
+    .hero img{
+        margin-top: 50px;
+        width: 260px;
+    }
+    .hero h1{
+        margin-top: 10px;
+        width: 90%;
+        font-size: 40px;
+    }
+    .hero p{
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+    .hero-actions{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    .hero-connect{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+    .hero-connect{
+        padding: 17px 40px;
+        border-radius: 40px;
+    }
+}
