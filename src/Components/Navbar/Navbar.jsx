@@ -1,16 +1,34 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
 import underline from "../../assets/underline.png";
+import menuOpen from "../../assets/menu_open.svg";
+import menuClose from "../../assets/menu_close.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
+  const menuRef = useRef();
+
+  const openMenu = () => {
+    menuRef.current.style.right = "0";
+  };
+
+  const closeMenu = () => {
+    menuRef.current.style.right = "-350px";
+  };
 
   return (
-    <div className="navbar">
+    <div id="home" className="navbar">
       <img src={logo} alt="" className="img"></img>
-      <ul className="navMenu">
+      <img src={menuOpen} onClick={openMenu} alt="" className="nav-mob-open" />
+      <ul ref={menuRef} className="navMenu">
+        <img
+          src={menuClose}
+          onClick={closeMenu}
+          alt=""
+          className="nav-mob-close"
+        />
         <li>
           <AnchorLink className="anchor-link" href="#home">
             <p onClick={() => setMenu("home")}>Home</p>
@@ -42,7 +60,7 @@ const Navbar = () => {
           {menu === "contact" ? <img src={underline} alt="" /> : <></>}
         </li>
       </ul>
-      <div className="navConnect">
+      <div className="nav-connect">
         <AnchorLink className="anchor-link" href="#contact">
           Connect with me
         </AnchorLink>
