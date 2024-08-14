@@ -134,3 +134,50 @@
     transform: scale(1.1);
     background: linear-gradient(267deg, #47801c  0.36%, #002200  102.06%);
 }
+
+@media(max-width:768px){
+    .contact{
+        gap: 50px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+    .contact-title h1{
+        padding: 0;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .contact-title-get-in-touch{
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-left h1{
+        font-size: 45px;
+    }
+    .contact-left p{
+        font-size: 18px;
+    }
+    .contact-details{
+        gap: 20px;
+    }
+    .contact-detail img{
+        width: 25px;
+    }
+    .contact-right label{
+        font-size: 20px;
+    }
+    .contact-right input{
+        width: 100%;
+        font-size: 20px;
+    }
+    .contact-right textarea{
+        width: 95%;
+        font-size: 20px;
+    }
+    .contact-submit{
+        font-size: 20px;
+        padding: 15px 40px;
+    }
+}
