@@ -70,3 +70,18 @@
     gap: 50px;
     margin-bottom: 50px;
 }
+
+@media(min-width:768px){
+    .footer{
+        margin: 50px 70px;     
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .foote-bottom{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+}
