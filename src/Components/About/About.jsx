@@ -22,12 +22,14 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>afdsafdsaf</p>
             <p>
-              afdfa adsfdsafdsa sad f dsafds aasfdsafdsa sadfadsfdsaf asfdsafds
-              asfadsf safdsaf dsafds fdsfsdaf ds fds f dsa fads f dsaf da sf
-              dsaf dsa dsf fdsafdsafdsaf dsfdsa fds f sad f dsa fdsaf dsaf dsf
-              dsafdsf
+              I'm a final-year Computer Engineering student at the University of
+              Jaffna, specializing in web development, machine learning, and AI.{" "}
+            </p>
+            <p>
+              I’m passionate about building web applications and exploring new
+              technologies, with a strong focus on creating innovative solutions
+              through machine learning and deep learning models.
             </p>
           </div>
           <div className="about-skills">
