@@ -119,7 +119,7 @@
 
 @media(max-width: 768px){
     .about{
-        margin: 50px 70px;
+        margin: 50px 60px;
         gap: 80px;
         align-items: start;
     }
