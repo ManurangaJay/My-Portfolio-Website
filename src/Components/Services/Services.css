@@ -102,19 +102,19 @@
         padding:22px;
     }
     .services-format h2{
-        font-size: 28px;
+        font-size: 22px;
     }
     .services-format p{
-        font-size: 18px;
+        font-size: 15px;
         line-height: 32px;
-        max-width: 300px;
+        max-width: 200px;
     }
-    .services-readmore img{
+    /* .services-readmore img{
         width: 20px;
-    }
+    } */
     .services-container{
         grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        gap: 20px;
     }
 
 }
