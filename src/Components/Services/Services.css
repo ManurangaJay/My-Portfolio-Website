@@ -35,7 +35,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    padding: 60px;
+    padding: 40px;
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.3s;
@@ -47,11 +47,11 @@
     transform: scale(1.05);
 }
 .services-format h3{
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 600;
 }
 .services-format h2{
-    font-size: 38px;
+    font-size: 30px;
     font-weight: 800;
     background: linear-gradient(267deg, #c1ff80  0.36%, #01b607  102.06%);
     background-clip: text;
@@ -61,7 +61,7 @@
 }
 .services-format p{
     color: #ffffff;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 40px;
     max-width: 300px;
 }

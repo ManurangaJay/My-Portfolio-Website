@@ -54,8 +54,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 350;
 }
 
 .about-skills{
@@ -75,7 +75,7 @@
 }
 .about-skill p{
     min-width: 150px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 .about-skill hr{

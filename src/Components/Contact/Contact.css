@@ -53,6 +53,7 @@
     color: azure;
     font-size: 20px;
     line-height: 35px;
+    font-weight: 350;
 }
 
 .contact-details{
@@ -124,9 +125,9 @@
     color: white;
     border-radius: 50px;
     background: linear-gradient(267deg, #5fb601  0.36%, #004202  102.06%);
-    font-size: 22px;
+    font-size: 18px;
     padding: 20px 60px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     cursor: pointer;
     transition: 0.3s;
 }

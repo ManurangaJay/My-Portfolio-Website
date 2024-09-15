@@ -6,8 +6,8 @@
 }
 
 .hero img{
-    margin-top: 50px;
-    width: 400px;
+    margin-top: 20px;
+    width: 380px;
 }
 
 .hero h1{
@@ -22,6 +22,8 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight:700;
+    font-size: 60px;
 }
 
 .hero p{
@@ -35,13 +37,13 @@
     display: flex;
     align-items: center;
     gap: 25px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 50px;
 }
 
 .hero-connect{
-    padding: 15px 25px;
+    padding: 20px 25px;
     border-radius: 50px;
     background: linear-gradient(267deg, #56a500  0.36%, #004202  102.06%);
     cursor: pointer;
@@ -51,7 +53,7 @@
 }
 
 .hero-resume{
-    padding: 14px 60px;
+    padding: 19px 60px;
     border-radius: 50px;
     border: 3px solid #fff;
     cursor: pointer;
