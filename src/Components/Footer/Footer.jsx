@@ -14,13 +14,6 @@ const Footer = () => {
             University of Jaffna
           </p>
         </div>
-        {/* <div className="footer-top-right">
-          <div className="footer-email-input">
-            <img src={userIcon} alt="" />
-            <input type="email" placeholder="Enter your Email" />
-          </div>
-          <div className="footer-subscribe">Subscribe</div>
-        </div> */}
       </div>
       <hr />
       <div className="foote-bottom">
