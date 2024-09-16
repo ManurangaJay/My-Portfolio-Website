@@ -73,7 +73,7 @@
 
 @media(max-width:768px){
     .footer{
-        margin: 50px 70px;     
+        margin: 10px 30px;     
     }
     .footer-top{
         flex-direction: column;
@@ -88,8 +88,8 @@
         font-size: 15px;
     }
     .footer-bottom-right p{
-        margin-top: 10px;
-        font-size: 12px;
+        margin-top: 20px;
+        font-size: 15px;
     }
     .footer-bottom-left p{
         font-size: 14px;

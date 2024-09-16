@@ -41,13 +41,13 @@
 
 .about-section{
     display: flex;
-    gap: 80px;
+    gap: 50px;
 }
 
 .about-right{
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 50px;
 }
 
 .about-para{
@@ -119,9 +119,12 @@
 
 @media(max-width: 768px){
     .about{
-        margin: 50px 60px;
-        gap: 80px;
-        align-items: start;
+        margin: 30px 30px;
+        gap: 30px;
+        align-items: center;
+    }
+    .about-title{
+        margin-bottom: 1px;
     }
    .about-title h1{
         font-size: 40px;
@@ -135,6 +138,9 @@
     }
     .about-left{
         display: none;
+    }
+    .about-right{
+        gap: 40px;
     }
     .about-para{
         font-size: 18px;

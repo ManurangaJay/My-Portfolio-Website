@@ -67,9 +67,9 @@
 
 @media(max-width:768px){
      .mywork{
-        gap: 50px;
-        margin: 10px 50px;
-        align-items: start;
+        gap: 30px;
+        margin: 10px 30px;
+        align-items: center;
      }
      .mywork-title h1{
         padding: 0;
@@ -87,7 +87,7 @@
      }
      .mywork-container{
         grid-template-columns: 1fr;
-        gap: 5px;
+        gap: 15px;
      }
      .mywork-container img{
         width: 100%;
@@ -96,10 +96,12 @@
      .mywork-showmore{
         padding: 15px 35px;
         font-size: 18px;
-        margin: 50px auto;
+        margin: 10px auto;
         cursor: pointer;
      }
-
-
-
+     .mywork-container img:hover{
+        transform: scale(1.03);
+        border: 4px solid rgb(29, 194, 51);
+        border-radius: 10px;
+    }
 }
