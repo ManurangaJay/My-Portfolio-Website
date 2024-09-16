@@ -59,7 +59,7 @@
 .contact-details{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     color: azure;
     font-size: 22px;
 }
@@ -68,6 +68,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    /* padding-right: 15px; */
 }
 
 .contact-right{
@@ -88,6 +89,7 @@
     width: 700px;
     height: 78px;
     padding-left: 20px;
+    padding-right: 25px;
     border-radius: 4px;
     background: #001d00;
     color:#bbd2a2;
@@ -144,11 +146,11 @@
     }
     .contact-title h1{
         padding: 0;
-        font-size: 40px;
+        font-size: 20px;
         font-weight: 600;
     }
     .contact-title-get-in-touch{
-        font-size: 45px;
+        font-size: 30px;
         font-weight: 600;
     }
     .contact-section{
@@ -161,7 +163,7 @@
         font-size: 18px;
     }
     .contact-details{
-        gap: 20px;
+        gap: 10px;
     }
     .contact-detail img{
         width: 25px;
@@ -170,11 +172,11 @@
         font-size: 20px;
     }
     .contact-right input{
-        width: 100%;
+        width: 80%;
         font-size: 20px;
     }
     .contact-right textarea{
-        width: 95%;
+        width: 80%;
         font-size: 20px;
     }
     .contact-submit{

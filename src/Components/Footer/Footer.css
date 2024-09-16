@@ -84,4 +84,14 @@
         flex-direction: column;
         margin-bottom: 50px;
     }
+    .footer-top-left p{
+        font-size: 15px;
+    }
+    .footer-bottom-right p{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .footer-bottom-left p{
+        font-size: 14px;
+    }
 }
