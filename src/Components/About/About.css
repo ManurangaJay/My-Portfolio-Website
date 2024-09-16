@@ -141,8 +141,8 @@
         line-height: 32px;
     }
     .about-skills{
-        gap: 20px;
-        align-items: center;
+        gap: 10px;
+        align-items: left;
     }
     .about-skill p{
         font-size: 20px;

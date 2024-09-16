@@ -10,7 +10,8 @@ const Hero = () => {
     <div className="hero">
       <img src={profPic} alt=""></img>
       <h1>
-        <span>I'm Manuranga,</span> Full Stack Developer in Sri Lanka
+        <span>I'm Manuranga, </span>
+        Full Stack Developer in Sri Lanka
       </h1>
       <p>
         I'm an undergraduate student in Faculty of Engineering, University of
