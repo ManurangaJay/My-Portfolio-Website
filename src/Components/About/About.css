@@ -1,174 +1,159 @@
-.about{
+.about {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 80px;
     margin: 80px 170px;
-}
-
-.about-title{
+  }
+  
+  .about-title {
     position: relative;
-}
-.about-word{
-    font-size: 60px;
-    background: linear-gradient(267deg, #c1ff80  0.36%, #01b607  102.06%);
+  }
+  
+  .about-word {
+    font-size: 64px; /* Increased font size */
+    background: linear-gradient(267deg, #c1ff80 0.36%, #01b607 102.06%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.about-me-hr{
-    height: 2px;
+    letter-spacing: 3px; /* Increased letter spacing */
+  }
+  
+  .about-me-hr {
+    height: 3px;
     background-color: #00250c;
-    /* background: linear-gradient(267deg, #c1ff80  0.36%, #002001  102.06%); */
     outline: none;
     border: none;
-}
-
-.about-title h1{
+  }
+  
+  .about-title h1 {
     padding: 0px 30px;
     font-size: 50px;
     font-weight: 600;
-}
-
-.about-title img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-}
-
-.about-section{
+    letter-spacing: 2px;
+  }
+  
+  .about-section {
     display: flex;
     gap: 50px;
-}
-
-.about-right{
+  }
+  
+  .about-left img {
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow for better visibility */
+  }
+  
+  .about-right {
     display: flex;
     flex-direction: column;
     gap: 50px;
-}
-
-.about-para{
+  }
+  
+  .about-para {
     display: flex;
     flex-direction: column;
     gap: 20px;
     font-size: 22px;
     font-weight: 350;
-}
-
-.about-skills{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.about-skill{
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    transition: 0.3s;
-}
-.about-skill:hover{
-    transform: scale(1.05);
-}
-.about-skill p{
-    min-width: 150px;
-    font-size: 18px;
-    font-weight: 500;
-}
-.about-skill hr{
-    outline: none;
-    border: none;
-    width: 50%;
-    height: 6px;
-    border-radius: 50px;
-    background: linear-gradient(267deg, #59ac00  0.36%, #004702  102.06%);
-}
-
-.about-achivemets{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    margin-bottom: 80px;
-}
-
-.about-achivement{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    transition: 0.3s;
-}
-.about-achivement:hover{
-    transform: scale(1.05);
-}
-.about-achivement h1{
-    font-size: 60px;
-    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 1.8; /* Improved line spacing */
+  }
+  
+  .technical-skills,
+  .about-soft-skills {
+    margin-top: 10px;
+  }
+  
+  .technical-skills h2,
+  .about-soft-skills h2 {
+    font-size: 30px; /* Retain existing header style */
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
     background: linear-gradient(267deg, #c1ff80  0.36%, #01b607  102.06%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-.about-achivement p{
-    font-size: 22px;
-    font-weight: 500;
-}
+  }
+  
+  .technical-skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 20px; /* Match the soft skills font size */
+    letter-spacing: 1px; /* Match the soft skills letter spacing */
+    line-height: 2; /* Keep line height for readability */
+  }
 
-@media(max-width: 768px){
-    .about{
-        margin: 30px 30px;
-        gap: 30px;
-        align-items: center;
-    }
-    .about-title{
-        margin-bottom: 1px;
-    }
-   .about-title h1{
-        font-size: 40px;
-        padding: 0;
-   }
-   .about-word{
-        font-size: 45px;    
-   }
-   .about-section{
-        flex-direction: column;
-    }
-    .about-left{
-        display: none;
-    }
-    .about-right{
-        gap: 40px;
-    }
-    .about-para{
-        font-size: 18px;
-        line-height: 32px;
-    }
-    .about-skills{
-        gap: 10px;
-        align-items: left;
-    }
-    .about-skill p{
-        font-size: 20px;
-    }
-    .about-skill hr{
-        height: 6px;
-    }
-    .about-achivemets{
-        justify-content: space-between;
-    }
-    .about-achivement{
-        gap: 10px;
-    }
-    .about-achivement h1{
-        font-size: 34px;
-        font-weight: 700;
-    }
-    .about-achivement p{
-        text-align: center;
-        font-size: 16px;
-    }
-}
+  .technical-skills ul strong{
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 22px; /* Match the soft skills font size */
+    letter-spacing: 1px; /* Match the soft skills letter spacing */
+    line-height: 2; /* Keep line height for readability */
+    color: #a9ffac;
+  }
 
+  .soft-skills-column ul{
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 20px; /* Match the soft skills font size */
+    letter-spacing: 1px; /* Match the soft skills letter spacing */
+    line-height: 2; /* Keep line height for readability */
+  }
+  
+  .soft-skills-columns {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .soft-skills-column ul {
+    list-style-type: disc;
+    font-size: 20px; /* Ensuring soft skills font size is 16px */
+    letter-spacing: 1px; /* Consistent letter spacing */
+    line-height: 1.8;
+  }
+  
+  @media (max-width: 768px) {
+    .about {
+      margin: 30px;
+      gap: 30px;
+      align-items: center;
+    }
+  
+    .about-title h1 {
+      font-size: 40px;
+      padding: 0;
+    }
+  
+    .about-word {
+      font-size: 45px;
+    }
+  
+    .about-section {
+      flex-direction: column;
+    }
+  
+    .about-left {
+      display: none;
+    }
+  
+    .about-right {
+      gap: 40px;
+    }
+  
+    .about-para {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  
+    .soft-skills-columns {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .soft-skills-column ul {
+      font-size: 16px; /* Consistent font size across the board */
+    }
+  }
+  

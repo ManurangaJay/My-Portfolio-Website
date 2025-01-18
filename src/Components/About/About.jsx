@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import mypic from "../../assets/my-picture.jpg";
+import mypic from "../../assets/my-picture_2.jpg";
 
 const About = () => {
   return (
@@ -10,13 +10,12 @@ const About = () => {
           <span className="about-word">About</span> Me
         </h1>
         <hr className="about-me-hr" />
-        {/* <img src={mypic} alt="" style={{ width: "300px" }} /> */}
       </div>
       <div className="about-section">
         <div className="about-left">
           <img
             src={mypic}
-            alt=""
+            alt="My Picture"
             style={{ width: "300px", borderRadius: "30px" }}
           />
         </div>
@@ -24,7 +23,7 @@ const About = () => {
           <div className="about-para">
             <p>
               I'm a final-year Computer Engineering student at the University of
-              Jaffna, specializing in web development, machine learning, and AI.{" "}
+              Jaffna, specializing in web development, machine learning, and AI.
             </p>
             <p>
               I’m passionate about building web applications and exploring new
@@ -32,38 +31,61 @@ const About = () => {
               through machine learning and deep learning models.
             </p>
           </div>
-          <div className="about-skills">
-            <div className="about-skill">
-              <p>Java</p> <hr style={{ width: "80%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Python</p> <hr style={{ width: "70%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Javascript</p> <hr style={{ width: "70%" }} />
-            </div>
-            <div className="about-skill">
-              <p>HTML & CSS</p> <hr style={{ width: "80%" }} />
+          <div className="technical-skills">
+            <h2>Technical Skills:</h2>
+            <ul>
+              <li>
+                <strong>Languages:</strong> Java, Python, C++
+              </li>
+              <li>
+                <strong>Frameworks:</strong> Spring Boot
+              </li>
+              <li>
+                <strong>Web Development:</strong> ReactJS, HTML, CSS, JavaScript
+              </li>
+              <li>
+                <strong>Cloud:</strong> AWS, Google Cloud
+              </li>
+              <li>
+                <strong>Database:</strong> MySQL, PostgreSQL, MongoDB
+              </li>
+              <li>
+                <strong>Other Tools:</strong> Git, GitHub, Docker, Jira, Figma
+              </li>
+              <li>
+                <strong>Testing:</strong> Postman, Junit
+              </li>
+              <li>
+                <strong>Data Science & AI:</strong> Machine Learning, Deep
+                Learning, Artificial Intelligence, Data Mining
+              </li>
+            </ul>
+          </div>
+          <div className="about-soft-skills">
+            <h2>Soft Skills:</h2>
+            <div className="soft-skills-columns">
+              <div className="soft-skills-column">
+                <ul>
+                  <li>Excellent Communication</li>
+                  <li>Excellent Team Work</li>
+                </ul>
+              </div>
+              <div className="soft-skills-column">
+                <ul>
+                  <li>Leadership</li>
+                  <li>Time Management</li>
+                </ul>
+              </div>
+              <div className="soft-skills-column">
+                <ul>
+                  <li>Problem Solving</li>
+                  <li>Adaptability</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <div className="about-achivemets">
-        <div className="about-achivement">
-          <h1>2+</h1>
-          <p>Years of experience</p>
-        </div>
-        <hr />
-        <div className="about-achivement">
-          <h1>5+</h1>
-          <p>Projects Completed</p>
-        </div>
-        <hr />
-        <div className="about-achivement">
-          <h1>10+</h1>
-          <p>Happy Clients</p>
-        </div>
-      </div> */}
     </div>
   );
 };
