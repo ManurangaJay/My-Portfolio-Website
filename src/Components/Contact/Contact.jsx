@@ -49,21 +49,45 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-detail">
               <img src={mail_icon} alt="" />
-              <p>manurangajayawardhana@gmail.com</p>
+              <p>
+                <a href="mailto:manurangajayawardhana@gmail.com">
+                  manurangajayawardhana@gmail.com
+                </a>
+              </p>
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="" />
-              <p>+94 70863051 (Whatsapp)</p>
+              <p>
+                +94 70863051
+              </p>
             </div>
             <div className="contact-detail">
-              <img src={linkedin_icon} alt="" />
-              <a href="https://www.linkedin.com/in/manuranga-jayawardhana-761288229/" target="_blank" rel="noopener noreferrer">
+            <img
+                src={linkedin_icon}
+                alt="LinkedIn"
+                style={{ cursor: "pointer" }}
+                onClick={() => window.open("https://www.linkedin.com/in/manuranga-jayawardhana-761288229/", "_blank")}
+              />
+              <a
+                href="https://www.linkedin.com/in/manuranga-jayawardhana-761288229/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <p>ManurangaJayawardhana</p>
               </a>
             </div>
             <div className="contact-detail">
-              <img src={github_icon} alt="" />
-              <a href="https://github.com/Manurangajay" target="_blank" rel="noopener noreferrer">
+            <img
+                src={github_icon}
+                alt="GitHub"
+                style={{ cursor: "pointer" }}
+                onClick={() => window.open("https://github.com/Manurangajay", "_blank")}
+              />
+              <a
+                href="https://github.com/Manurangajay"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <p>Manurangajay</p>
               </a>
             </div>
