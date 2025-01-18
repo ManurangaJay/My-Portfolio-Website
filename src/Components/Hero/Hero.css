@@ -52,13 +52,17 @@
     border: 2px solid white;
 }
 
-.hero-resume{
+.hero-resume {
     padding: 19px 60px;
     border-radius: 50px;
     border: 3px solid #fff;
     cursor: pointer;
+    text-decoration: none; /* Removes the underline */
+    color: white; /* Sets text color to white */
+    display: inline-block; /* Ensures it behaves like a button */
+    text-align: center;
 }
-.hero-resume:hover{
+.hero-resume:hover {
     border-color: #01b607;
 }
 

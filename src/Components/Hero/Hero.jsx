@@ -1,9 +1,8 @@
 import React from "react";
 import "./Hero.css";
 import profPic from "../../assets/profile_pic.png";
+import resume from "../../assets/D.D.V.M Jayawardhana - CV.pdf"; // Import your CV file
 import AnchorLink from "react-anchor-link-smooth-scroll";
-
-// import profPic from "../../assets/Profile-Photo.png";
 
 const Hero = () => {
   return (
@@ -23,7 +22,13 @@ const Hero = () => {
             Connect with me{" "}
           </AnchorLink>
         </div>
-        <div className="hero-resume">My resume</div>
+        <a
+          href={resume} // Link to the resume file
+          download="Manuranga_Jayawardhana-Resume.pdf" // Specify the download file name
+          className="hero-resume"
+        >
+          Get My Resume
+        </a>
       </div>
     </div>
   );
