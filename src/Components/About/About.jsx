@@ -22,17 +22,28 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I'm a final-year Computer Engineering student at the University of
-              Jaffna, specializing in web development, machine learning, and AI.
+            I am a proactive and dedicated final-year <strong>Computer Engineering undergraduate 
+            in University of Jaffna</strong> with a strong aptitude for teamwork and problem-solving. 
+            I am an enthusiastic learner, eager to explore emerging technologies and apply 
+            innovative ideas to drive success and growth in any organization I contribute to. 
             </p>
             <p>
-              I’m passionate about building web applications and exploring new
-              technologies, with a strong focus on creating innovative solutions
-              through machine learning and deep learning models.
+            I’m passionate about<strong> full-stack development, blockchain,</strong> and creating innovative solutions using modern technologies. 
+            I am working with <strong>React, Spring Boot</strong>, and <strong>blockchain</strong> technologies to build scalable and secure applications.
+            </p>
+            <p>
+            I’m also interested in <strong>machine learning and AI</strong>, applying these technologies to create intelligent and efficient solutions. 
+            I constantly explore new tools and frameworks to improve my development skills.
             </p>
           </div>
-          <div className="technical-skills">
-            <h2>Technical Skills:</h2>
+        </div>
+      </div>
+
+      {/* Technical Skills Section */}
+      <div className="skills-section">
+        <div className="technical-skills">
+          <h2>Technical Skills:</h2>
+          <div className="skills-list">
             <ul>
               <li>
                 <strong>Languages:</strong> Java, Python, C++
@@ -61,27 +72,25 @@ const About = () => {
               </li>
             </ul>
           </div>
-          <div className="about-soft-skills">
-            <h2>Soft Skills:</h2>
-            <div className="soft-skills-columns">
-              <div className="soft-skills-column">
-                <ul>
-                  <li>Excellent Communication</li>
-                  <li>Excellent Team Work</li>
-                </ul>
-              </div>
-              <div className="soft-skills-column">
-                <ul>
-                  <li>Leadership</li>
-                  <li>Time Management</li>
-                </ul>
-              </div>
-              <div className="soft-skills-column">
-                <ul>
-                  <li>Problem Solving</li>
-                  <li>Adaptability</li>
-                </ul>
-              </div>
+        </div>
+
+        {/* Soft Skills Section */}
+        <div className="about-soft-skills">
+          <h2>Soft Skills:</h2>
+          <div className="soft-skills-columns">
+            <div className="soft-skills-column">
+              <ul>
+                <li>Excellent Communication</li>
+                <li>Excellent Team Work</li>
+                <li>Problem Solving</li>
+              </ul>
+            </div>
+            <div className="soft-skills-column">
+              <ul>
+                <li>Leadership</li>
+                <li>Time Management</li>
+                <li>Adaptability</li>
+              </ul>
             </div>
           </div>
         </div>

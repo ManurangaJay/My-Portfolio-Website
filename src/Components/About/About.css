@@ -59,10 +59,22 @@
     letter-spacing: 1.2px;
     line-height: 1.8; /* Improved line spacing */
   }
+  .about-para strong{
+    color: #4b9054;
+  }
+  
+  .skills-section {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+  }
   
   .technical-skills,
   .about-soft-skills {
-    margin-top: 10px;
+    background-image: linear-gradient(45deg, rgb(0, 0, 0),rgb(0, 28, 4));
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1;
   }
   
   .technical-skills h2,
@@ -71,47 +83,36 @@
     font-weight: 600;
     margin-bottom: 20px;
     letter-spacing: 1.5px;
-    background: linear-gradient(267deg, #c1ff80  0.36%, #01b607  102.06%);
+    background: linear-gradient(267deg, #c1ff80 0.36%, #01b607 102.06%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
-  .technical-skills ul {
+  .skills-list ul {
     list-style-type: disc;
     padding-left: 20px;
     font-size: 20px; /* Match the soft skills font size */
     letter-spacing: 1px; /* Match the soft skills letter spacing */
     line-height: 2; /* Keep line height for readability */
   }
-
-  .technical-skills ul strong{
-    list-style-type: disc;
-    padding-left: 20px;
-    font-size: 22px; /* Match the soft skills font size */
-    letter-spacing: 1px; /* Match the soft skills letter spacing */
-    line-height: 2; /* Keep line height for readability */
+  
+  .skills-list ul strong {
     color: #a9ffac;
-  }
-
-  .soft-skills-column ul{
-    list-style-type: disc;
-    padding-left: 20px;
-    font-size: 20px; /* Match the soft skills font size */
-    letter-spacing: 1px; /* Match the soft skills letter spacing */
-    line-height: 2; /* Keep line height for readability */
+    font-size: 22px;
   }
   
   .soft-skills-columns {
     display: flex;
     gap: 40px;
+    padding-left: 30px;
   }
   
   .soft-skills-column ul {
     list-style-type: disc;
-    font-size: 20px; /* Ensuring soft skills font size is 16px */
-    letter-spacing: 1px; /* Consistent letter spacing */
-    line-height: 1.8;
+    font-size: 20px; /* Match the soft skills font size */
+    letter-spacing: 1px; /* Match the soft skills letter spacing */
+    line-height: 2; /* Keep line height for readability */
   }
   
   @media (max-width: 768px) {
@@ -145,6 +146,10 @@
     .about-para {
       font-size: 18px;
       line-height: 1.6;
+    }
+  
+    .skills-section {
+      flex-direction: column;
     }
   
     .soft-skills-columns {
