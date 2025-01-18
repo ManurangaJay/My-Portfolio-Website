@@ -59,7 +59,7 @@
 .contact-details{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
     color: azure;
     font-size: 22px;
 }

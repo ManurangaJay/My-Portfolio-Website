@@ -54,10 +54,9 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 350;
-    letter-spacing: 1.2px;
-    line-height: 1.8; /* Improved line spacing */
+    line-height: 1.7; /* Improved line spacing */
   }
   .about-para strong{
     color: #4b9054;
@@ -144,7 +143,7 @@
     }
   
     .about-para {
-      font-size: 18px;
+      font-size: 15px;
       line-height: 1.6;
     }
   
@@ -158,7 +157,13 @@
     }
   
     .soft-skills-column ul {
-      font-size: 16px; /* Consistent font size across the board */
+      font-size: 15px; /* Consistent font size across the board */
+    }
+    .skills-list ul{
+      font-size: 15px;
+    }
+    .skills-list ul strong{
+      font-size: 15px;
     }
   }
   

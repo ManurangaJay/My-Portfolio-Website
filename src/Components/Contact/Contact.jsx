@@ -3,6 +3,8 @@ import "./Contact.css";
 import call_icon from "../../assets/call_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
 import mail_icon from "../../assets/mail_icon.svg";
+import github_icon from "../../assets/github.png";
+import linkedin_icon from "../../assets/linkedin.png";
 
 const Contact = () => {
   const onSubmit = async (event) => {
@@ -54,8 +56,20 @@ const Contact = () => {
               <p>+94 70863051 (Whatsapp)</p>
             </div>
             <div className="contact-detail">
+              <img src={linkedin_icon} alt="" />
+              <a href="https://www.linkedin.com/in/manuranga-jayawardhana-761288229/" target="_blank" rel="noopener noreferrer">
+                <p>ManurangaJayawardhana</p>
+              </a>
+            </div>
+            <div className="contact-detail">
+              <img src={github_icon} alt="" />
+              <a href="https://github.com/Manurangajay" target="_blank" rel="noopener noreferrer">
+                <p>Manurangajay</p>
+              </a>
+            </div>
+            <div className="contact-detail">
               <img src={location_icon} alt="" />
-              <p>770,Sampathgama,Sevanagala</p>
+              <p>Embilipitiya, Sri Lanka</p>
             </div>
           </div>
         </div>
